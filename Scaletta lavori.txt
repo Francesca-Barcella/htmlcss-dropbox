@@ -1,0 +1,63 @@
+★ COMMON:
+    • TESTI: 
+    tutti neri tranne "porta dropbox Business nella tua azienda"
+    tutti giustificati a sinistra
+    • PULSANTI: 3 tipi
+        1° - sfondo blu e scritta bianca
+        2° - sfondo bianco bordo e testo nero
+        3° - sfondo bianco no bordo e testo nero
+
+★ UTILITY:
+    • w_70% per tutto il main
+    • w_80% per il jumbo tron
+    • container_fluid per le parti 100%
+
+
+★ HEADER:
+    container100% issata in alto
+    3 colonne:
+    1° - sx - logo
+    2° - centrale - menu ul diviso in due colonne space-around* (*o forse altri, da vedere)
+    3° - dx - tasto inizia 
+
+★ JUMBOTRON:
+    due container 80%, uno sopra blu e uno sotto bianco per accavallare l'immagine* (* da capire bene sul campo come fare questo accavallamento)
+    h1
+    div con:
+    p
+    btn
+    span/div
+    icona freccia
+    float left per far andare l'immagine a destra
+
+★ SEZIONE TROVA IL PIANO...
+    h2
+    quadrati stondati o checkbox
+    3 colonne
+        ogni card divisa in due macro contenitori: nome e descrizione piano
+        descrizione piano divisa in 4 blocchi: intro - specifiche - cta - punti salienti
+        • INTRO - h3 + div + div
+        • SPECIFICHE - 3 divi con icona + testo (capire se il testo libero o anch'esso racchiuso in div o span)
+        • CTA - btn X30gg + a href
+        • HR (capire se meglio riga o div con bordo - la riga mi ha sempre fatto impazzire)
+        • PUNTI SALIENTI - h o p-bold + ul
+
+★ SEZIONE TEAM
+    2 contenitori (potrebbe essere direction column così lo sperimento) - 1 titolo sezione + descrizione con cta
+    contenitore basso diviso in due div sx e dx
+        • div sx:  h3 + h4 (o p-bold) + p
+        • div dx: CTA
+    Capire se meglio div con float e position o due colonne
+
+★ SEZIONE TROVA UN PARTNER
+    2 colonne oppure immagine che flotta a sinistra e testo sale.
+    Parte DX - h3 + p + tasto
+
+★ SEZIONE ESEGUI PIU OPERAZIONI
+    griglia 3*3 con flex row e wrap
+    ogni card compasto da img + h3 + p
+
+★ SEZIONE 500k
+    
+    griglia 3*3 con flex row e wrap
+    ogni card compasto da img + h3 + p
