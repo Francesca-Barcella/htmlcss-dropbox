@@ -1,19 +1,36 @@
-/* region common */
+/* #region common */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* endregion common */
+body {
+    color: var(--db-dark);
+}
 
-/* region utility */
+img {
+    max-width: 100%;
+    margin: auto;
+}
+
+.btn{
+    background-color: var(--db-btn);
+}
+
+.btn.light{
+    background-color: var(--db-light);
+}
+
+/* #endregion common */
+
+/* #region utility */
 :root {
     --db-btn: #0061FF;
     --db-bg-lite: #B4D0E7;
     --db-dark: #000000;
-    --db-ligth: #FFFFFF;
-    --db-txt-bg-lite: #63082B;
+    --db-light: #FFFFFF;
+    --db-txt-bg-light: #63082B;
     --db-bg-designit: #A2D39B;
     --db-bg-asu: #61082B;
     --db-bg-uf: #0093CE;
@@ -24,5 +41,43 @@
     --db-bg-clear-channel: #FFD830;
 }
 
+.w_70 {
+    width: 70%;
+}
 
-/* endregion utility */
+.w_80 {
+    width: 80%;
+}
+
+.w_fluid {
+    width: 100%;
+}
+
+.d_flex {
+    display: flex;
+}
+
+.d_wrap{
+    flex-wrap: wrap;
+}
+
+.clerafix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.col-2{
+    width: calc(100% / 12 * 2);
+}
+
+.col-3{
+    width: calc(100% / 12 * 3);
+}
+
+.col-5{
+    width: calc(100% / 12 * 5);
+}
+
+
+/* #endregion utility */
