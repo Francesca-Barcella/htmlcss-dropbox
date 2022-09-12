@@ -287,5 +287,9 @@ h1 {
     margin: 1rem 0;
 }
 
+.card .punti_salienti i{
+    color: var(--db-btn);
+}
+
 
 /* #endregion main-piani business */
