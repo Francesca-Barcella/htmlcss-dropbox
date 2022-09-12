@@ -122,9 +122,12 @@ h2 {
     border: 1px dashed green;
 }
 
-.debug .card {
-    border: 1px solid red;
-    height: 500px;
+.debug .pricing,
+.debug .service,
+.debug .cta,
+.debug .punti_salienti {
+    border: 1px solid green;
+    margin: 1rem 0;
 }
 
 /* #endregion debug */
@@ -186,17 +189,21 @@ h1 {
 /* #endregion main-jumbotron */
 
 /* #region main-piano business */
-.piani_business{
+.piani_business {
     margin-top: 2rem;
 }
 
-.piani_business h2, .container_check_box{
+.piani_business h2,
+.container_check_box {
     margin-bottom: 2rem;
 }
 
-.piani_business div {
-    margin-top: 1.5rem;
-    margin-right: 1.5rem;
+.container_check_box {
+    gap: 1rem;
+}
+
+.mensile {
+    margin-right: 1rem;
 }
 
 .mensile i {
@@ -207,8 +214,27 @@ h1 {
     color: var(--db-dark-lite);
 }
 
-.piani_business .card {
-    width: calc(100% / 3);
+.piani_card {
+    justify-content: space-between;
+    align-items: stretch;
 }
+
+.card {
+    width: calc(100% / 12 * 4 - 2rem);
+    border: 1px solid var(--db-dark-lite);
+}
+
+.title_card {
+    border-bottom: 1px solid var(--db-dark-lite);
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.description_card {
+    justify-content: center;
+    text-align: left;
+    padding: 1rem 1rem;
+}
+
 
 /* #endregion main-piano business */
