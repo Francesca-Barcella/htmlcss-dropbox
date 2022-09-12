@@ -7,6 +7,7 @@
 
 body {
     color: var(--db-dark);
+    font-family: 'Open Sans', sans-serif;
 }
 
 img {
@@ -79,5 +80,30 @@ img {
     width: calc(100% / 12 * 5);
 }
 
-
+.col-6{
+    width: calc(100% / 12 * 6);
+}
 /* #endregion utility */
+
+/* #region debug */
+.debug{
+    border: 1px dashed green;
+}
+/* #endregion debug */
+
+/* #region header */
+.container_nav{
+    width: 100vw;
+    height: 8vh;
+    padding: 0.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: lightcoral;
+}
+
+/* #endregion header */
+
+main{
+    margin-top: 10vh;
+}
