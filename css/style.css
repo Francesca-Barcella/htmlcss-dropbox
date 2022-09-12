@@ -122,14 +122,14 @@ h2 {
     border: 1px dashed green;
 }
 
-.debug .pricing,
+/* .debug .pricing,
 .debug .service,
 .debug .cta,
 .debug .punti_salienti {
     border: 1px solid green;
     margin: 1rem 0;
 }
-
+ */
 /* #endregion debug */
 
 /* #region header */
@@ -188,7 +188,7 @@ h1 {
 
 /* #endregion main-jumbotron */
 
-/* #region main-piano business */
+/* #region main-piani business */
 .piani_business {
     margin-top: 2rem;
 }
@@ -228,6 +228,11 @@ h1 {
     border-bottom: 1px solid var(--db-dark-lite);
     text-align: center;
     padding: 0.5rem 0;
+    font-size: 0.8rem;
+}
+
+.piani_business i {
+    margin-right: 0.25rem;
 }
 
 .description_card {
@@ -236,5 +241,38 @@ h1 {
     padding: 1rem 1rem;
 }
 
+.card .service,
+.card .cta,
+.card .punti_salienti {
+    font-size: 0.8rem;
+}
 
-/* #endregion main-piano business */
+.card .pricing h3 {
+    margin-bottom: 0.8rem;
+}
+
+.card .pricing div {
+    color: var(--db-dark-lite);
+    font-size: 0.8rem;
+    margin-top: 0.1rem;
+}
+
+.card .service {
+    margin: 3rem 0;
+}
+
+.card .service div {
+    margin: 0.5rem 0;
+}
+
+.card .cta {
+    padding: 0.5rem 0;
+}
+
+.card .btn{
+    width: 100%;
+    padding: 0.5rem;
+}
+
+
+/* #endregion main-piani business */
