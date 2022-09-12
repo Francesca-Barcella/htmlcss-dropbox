@@ -58,6 +58,24 @@
     ogni card compasto da img + h3 + p
 
 ★ SEZIONE 500k
-    
-    griglia 3*3 con flex row e wrap
-    ogni card compasto da img + h3 + p
+    h2 + a href
+
+★ SEZIONE LOGHI
+    ipotizzo 3 colonne uguali
+    1° - sx - 2 colonne con wrap
+    2° - centrale - img logo + hr + p + div/span 
+    3° - dx - 2 colonne con wrap
+
+★ SEZIONE PROVA
+   soluzione con 2 colonne oppure con 2 elementi sistemati in un container w_70% e poi uso position
+
+★ SEZIONE FQA
+    bella storia!!!
+
+★ FOOTER 
+    Largo come il jombotron? verificare con figma
+    diviso in footer_top e footer_bottom
+    • FOOTER_TOP:
+        5 colonne con onguna titolo + ul per i menu
+    • FOOTER_BOTTOM 
+        div con icona + testo + simbolo
