@@ -19,6 +19,11 @@ li {
     list-style-type: none;
 }
 
+p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
 .btn {
     background-color: var(--db-btn);
     color: var(--db-light);
@@ -28,6 +33,7 @@ li {
 .btn.light {
     background-color: var(--db-light);
 }
+
 /* #endregion common */
 
 /* #region utility */
@@ -49,14 +55,17 @@ li {
 
 .w_70 {
     width: 70%;
+    margin: auto;
 }
 
-.w_80 {
+.w_60 {
     width: 80%;
+    margin: auto;
 }
 
 .w_fluid {
     width: 100%;
+    margin: auto;
 }
 
 .d_flex {
@@ -81,6 +90,10 @@ li {
     width: calc(100% / 12 * 3);
 }
 
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
+
 .col-5 {
     width: calc(100% / 12 * 5);
 }
@@ -89,12 +102,29 @@ li {
     width: calc(100% / 12 * 6);
 }
 
+.col-8 {
+    width: calc(100% / 12 * 8);
+}
+
+.col-9 {
+    width: calc(100% / 12 * 9);
+}
+
 /* #endregion utility */
 
 /* #region debug */
 .debug {
     border: 1px dashed green;
 }
+
+.debug .jumbotron {
+    background-color: #0061FF;
+}
+
+.debug .w_70 {
+    background-color: lightblue;
+}
+
 /* #endregion debug */
 
 /* #region header */
@@ -112,15 +142,33 @@ li {
     padding: 0.5rem;
 }
 
-nav li{
+nav li {
     padding: 0 0.5rem;
 }
+
 /* #endregion header */
 
-/* #region main */
-
+/* #region main-jumbotron */
 main {
     margin-top: 10vh;
 }
 
-/* #endregion main */
+h1{
+    font-size: 3rem;
+    padding-top: 1.5rem;
+}
+
+.container_jumbotron {
+    padding: 2rem 0;
+}
+
+.caption_jumbotron p{
+    margin-bottom: 1.5rem;
+}
+
+.jumbotron .btn{
+    padding: 0.5rem 0.5rem;
+
+}
+
+/* #endregion main-jumbotron */
