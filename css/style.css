@@ -24,6 +24,10 @@ p {
     line-height: 1.5rem;
 }
 
+h2 {
+    font-size: 2rem;
+}
+
 .btn {
     background-color: var(--db-btn);
     color: var(--db-light);
@@ -38,10 +42,11 @@ p {
 
 /* #region utility */
 :root {
-    --db-btn: #0061FF;
-    --db-bg-lite: #B4D0E7;
     --db-dark: #000000;
     --db-light: #FFFFFF;
+    --db-dark-lite: grey;
+    --db-btn: #0061FF;
+    --db-bg-lite: #B4D0E7;
     --db-txt-bg-light: #63082B;
     --db-bg-designit: #A2D39B;
     --db-bg-asu: #61082B;
@@ -59,7 +64,7 @@ p {
 }
 
 .w_60 {
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 
@@ -117,16 +122,21 @@ p {
     border: 1px dashed green;
 }
 
+.debug .card {
+    border: 1px solid red;
+    height: 500px;
+}
+
 /* #endregion debug */
 
 /* #region header */
 #site_header {
-    width: 100vw;
+    background-color: var(--db-light);
+    /*     width: 100vw;
     height: 10vh;
     position: fixed;
     top: 0;
-    left: 0;
-    background-color: var(--db-light);
+    left: 0; */
 }
 
 .container_nav {
@@ -169,8 +179,36 @@ h1 {
     margin-bottom: 1.5rem;
 }
 
-.jumbotron i{
+.jumbotron i {
     font-size: 2rem;
 }
 
 /* #endregion main-jumbotron */
+
+/* #region main-piano business */
+.piani_business{
+    margin-top: 2rem;
+}
+
+.piani_business h2, .container_check_box{
+    margin-bottom: 2rem;
+}
+
+.piani_business div {
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.mensile i {
+    color: var(--db-btn);
+}
+
+.annuale i {
+    color: var(--db-dark-lite);
+}
+
+.piani_business .card {
+    width: calc(100% / 3);
+}
+
+/* #endregion main-piano business */
