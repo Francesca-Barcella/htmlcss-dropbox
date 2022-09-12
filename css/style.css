@@ -1,10 +1,28 @@
 /* region common */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* endregion common */
 
 /* region utility */
+:root {
+    --db-btn: #0061FF;
+    --db-bg-lite: #B4D0E7;
+    --db-dark: #000000;
+    --db-ligth: #FFFFFF;
+    --db-txt-bg-lite: #63082B;
+    --db-bg-designit: #A2D39B;
+    --db-bg-asu: #61082B;
+    --db-bg-uf: #0093CE;
+    --db-bg-toops: #FF1C1C;
+    --db-bg-wbr: #D5001F;
+    --db-bg-hearst: #B4D0E7;
+    --db-bg-lonely: #0D2481;
+    --db-bg-clear-channel: #FFD830;
+}
+
+
 /* endregion utility */
