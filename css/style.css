@@ -24,7 +24,7 @@ p {
     line-height: 1.5rem;
 }
 
-h1{
+h1 {
     font-size: 70px;
 }
 
@@ -137,7 +137,7 @@ h3 {
     border: 1px dashed green;
 }
 
-.debug .operation .col-4{
+.debug .operation .col-4 {
     border: 1px dashed blue;
 }
 
@@ -146,8 +146,12 @@ h3 {
     border: 1px dashed red;
 }
 
-.debug .client_logos .col-6{
+.debug .client_logos .col-6 {
     height: 150px;
+}
+
+.debug .container_cta div{
+    border: 1px dashed green;
 }
 
 /* #endregion debug */
@@ -341,45 +345,56 @@ h1 {
     padding: 2rem;
 }
 
-.container_partner .btn_light{
+.container_partner .btn_light {
     border: 1px solid var(--db-dark);
 }
 
-.container_partner p{
+.container_partner p {
     margin-bottom: 2rem;
 }
+
 /* #endregion main-partner */
 
 /* #region main-operation */
-.operation{
+.operation {
     margin: 5rem 0;
 }
 
-.operation h2{
+.operation h2 {
     text-align: center;
     margin-bottom: 2rem;
 }
 
-.operation .row{
+.operation .row {
     gap: 1rem;
     margin: 1rem 0;
 }
+
 /* #endregion main-operation */
 
 /* #region main-clients */
-.clients>div{
-    padding: 3rem 0;
+.clients>div {
+    padding-top: 3rem;
 }
- .clients h2{
+
+.clients h2 {
     margin-bottom: 2rem;
- }
-.client_logos{
+}
+
+.client_logos {
     margin-top: 2rem;
 }
 /* #endregion main-clients */
 
 /* #region main-call to action */
-.container_cta{
-    background-color: var(--db-btn);
+.container_cta {
+    background-color: var(--db-bg-lite);
+    padding: 3rem 0;
 }
+
+.container_cta .col-4{
+    text-align: right;
+    padding-top: 0.5rem;
+}
+
 /* #endregion main-call to action */
