@@ -411,3 +411,33 @@ h1 {
 }
 /* #endregion main-FAQ */
 
+/* #region footer */
+
+footer{
+    background-color: var(--db-dark);
+}
+
+footer .container{
+    color: var(--db-light);
+    justify-content: space-between;
+    flex-basis: calc(100% / 5);
+    padding: 2rem 0;
+}
+
+footer a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+footer li{
+    padding: 0.25rem 0;
+    font-size: 12x;
+}
+
+footer hr{
+    width: 30%;
+}
+
+/* #endregion footer */
+
