@@ -168,6 +168,10 @@ i {
     text-align: justify;
 }
 
+.rompino2{
+    display: inline;inset-block: ;
+}
+
 /* #endregion debug */
 
 /* #region header */
