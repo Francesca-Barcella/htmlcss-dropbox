@@ -158,6 +158,7 @@ i {
     height: 150px;
 }
 
+
 /* #endregion debug */
 
 /* #region header */
@@ -460,3 +461,11 @@ footer .language {
 }
 
 /* #endregion footer */
+
+
+/* da sistemare di posizione */
+svg{
+    max-width: 50%;
+    max-height: 50%;
+}
+
