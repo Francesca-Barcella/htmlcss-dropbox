@@ -150,10 +150,6 @@ i{
     border: 1px dashed green;
 }
 
-.debug .operation .col-4 {
-    border: 1px dashed blue;
-}
-
 .debug .clients .col-4,
 .debug .clients>div {
     border: 1px dashed red;
