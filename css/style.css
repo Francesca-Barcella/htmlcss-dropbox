@@ -19,11 +19,6 @@ li {
     list-style-type: none;
 }
 
-p {
-    font-size: 14px;
-    line-height: 1.5rem;
-}
-
 h1 {
     font-size: 70px;
 }
@@ -33,7 +28,25 @@ h2 {
 }
 
 h3 {
+    font-size: 22px;
     margin-bottom: 0.8rem;
+}
+
+h4 {
+    font-size: 15px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.2rem;
+}
+
+i{
+    font-size: 0.8rem;
 }
 
 .btn {
@@ -150,7 +163,7 @@ h3 {
     height: 150px;
 }
 
-.debug .container_cta div{
+.debug .container_cta div {
     border: 1px dashed green;
 }
 
@@ -183,7 +196,6 @@ main {
 }
 
 h1 {
-    font-size: 3rem;
     padding-top: 1.5rem;
 }
 
@@ -206,10 +218,9 @@ h1 {
     margin-bottom: 1.5rem;
 }
 
-.jumbotron i {
+.jumbotron i{
     font-size: 2rem;
 }
-
 /* #endregion main-jumbotron */
 
 /* #region main-piani business */
@@ -384,6 +395,7 @@ h1 {
 .client_logos {
     margin-top: 2rem;
 }
+
 /* #endregion main-clients */
 
 /* #region main-call to action */
@@ -392,61 +404,62 @@ h1 {
     padding: 3rem 0;
 }
 
-.container_cta .col-5{
+.container_cta .col-5 {
     text-align: right;
     padding-top: 0.5rem;
 }
 
-.container_cta button{
+.container_cta button {
     width: 80%;
 }
+
 /* #endregion main-call to action */
 
 /* #region main-FAQ */
-.faq{
+.faq {
     background-color: coral;
     height: 150px;
     text-align: center;
     line-height: 150px;
 }
+
 /* #endregion main-FAQ */
 
 /* #region footer */
-
-footer{
+footer {
     background-color: var(--db-dark);
     color: var(--db-light);
 }
 
-footer .container{
+footer .container {
     color: var(--db-light);
     justify-content: space-between;
     flex-basis: calc(100% / 5);
     padding: 2rem 0;
 }
 
-footer a{
+footer a {
     color: white;
     list-style-type: none;
     text-decoration: none;
 }
 
-footer li{
+footer li {
     padding: 0.25rem 0;
     font-size: 12x;
 }
 
-footer hr{
+footer hr {
     width: 15%;
 }
-footer .language{
+
+footer .language {
     padding: 1rem 0;
-   align-items: center;
+    align-items: center;
 }
 
-.language div{
+.language div {
     margin: 0 0.5rem;
 }
 
 /* #endregion footer */
-
