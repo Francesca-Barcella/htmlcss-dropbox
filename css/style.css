@@ -415,6 +415,7 @@ h1 {
 
 footer{
     background-color: var(--db-dark);
+    color: var(--db-light);
 }
 
 footer .container{
@@ -436,7 +437,15 @@ footer li{
 }
 
 footer hr{
-    width: 30%;
+    width: 15%;
+}
+footer .language{
+    padding: 1rem 0;
+   align-items: center;
+}
+
+.language div{
+    margin: 0 0.5rem;
 }
 
 /* #endregion footer */
