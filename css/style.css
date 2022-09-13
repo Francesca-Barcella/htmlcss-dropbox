@@ -266,48 +266,51 @@ h1 {
     padding: 1rem 1rem;
 }
 
-.card .service,
-.card .cta,
-.card .punti_salienti {
+.piani_business .service,
+.piani_business .cta,
+.piani_business .punti_salienti {
     font-size: 0.8rem;
 }
 
-.card .pricing div {
+.pricing div {
     color: var(--db-dark-lite);
     font-size: 0.8rem;
     margin-top: 0.1rem;
 }
 
-.card .service {
+.service {
     margin: 3rem 0;
 }
 
-.card .service div {
-    margin: 0.5rem 0;
+.service div {
+    margin: 0.3rem 0;
 }
 
-.card .cta {
+.cta {
     padding: 0.5rem 0;
 }
 
-.card .btn {
+.piani_business .btn {
     width: 100%;
     margin-bottom: 1rem;
 }
 
-.card hr {
+.piani_business hr {
     margin-top: 1.5rem;
     margin-bottom: 2rem;
     width: 25%;
     color: var(--db-dark-lite);
 }
 
-.card .punti_salienti h4,
-.card .punti_salienti li {
+.punti_salienti h4 {
     margin: 1rem 0;
 }
 
-.card .punti_salienti i {
+.punti_salienti div {
+    margin: 0.3rem 0;
+}
+
+.punti_salienti i {
     color: var(--db-btn);
 }
 
