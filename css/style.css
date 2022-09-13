@@ -334,5 +334,8 @@ h1 {
 /* #endregion main-partner */
 
 /* #region main-operation */
+.container_operation{
+    flex-wrap: wrap;
+}
 
 /* #endregion main-operation */
