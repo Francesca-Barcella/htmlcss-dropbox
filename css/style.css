@@ -141,6 +141,11 @@ h3 {
     border: 1px dashed blue;
 }
 
+.debug .clients .col-4,
+.debug .clients>div {
+    border: 1px dashed red;
+}
+
 /* #endregion debug */
 
 /* #region header */
@@ -358,5 +363,13 @@ h1 {
 /* #endregion main-operation */
 
 /* #region main-clients */
-
+.clients>div{
+    padding: 3rem 0;
+}
+ .clients h2{
+    margin-bottom: 2rem;
+ }
+.client_logos{
+    margin-top: 2rem;
+}
 /* #endregion main-clients */
