@@ -20,12 +20,16 @@ li {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 14px;
     line-height: 1.5rem;
 }
 
+h1{
+    font-size: 70px;
+}
+
 h2 {
-    font-size: 2rem;
+    font-size: 36px;
 }
 
 h3 {
@@ -131,6 +135,10 @@ h3 {
 /* #region debug */
 .debug {
     border: 1px dashed green;
+}
+
+.debug .col-4{
+    border: 1px dashed blue;
 }
 
 /* #endregion debug */
@@ -334,6 +342,15 @@ h1 {
 /* #endregion main-partner */
 
 /* #region main-operation */
+.operation{
+    margin: 5rem 0;
+}
+
+.operation h2{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
 .container_operation{
     flex-wrap: wrap;
 }
