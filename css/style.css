@@ -403,6 +403,11 @@ h1 {
 /* #endregion main-call to action */
 
 /* #region main-FAQ */
-
+.faq{
+    background-color: coral;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
 /* #endregion main-FAQ */
 
