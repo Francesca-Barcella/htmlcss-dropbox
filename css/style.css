@@ -159,10 +159,6 @@ i{
     height: 150px;
 }
 
-.debug .container_cta div {
-    border: 1px dashed green;
-}
-
 /* #endregion debug */
 
 /* #region header */
@@ -398,6 +394,10 @@ h1 {
 .container_cta {
     background-color: var(--db-bg-lite);
     padding: 3rem 0;
+}
+
+.container_cta h2{
+    color: var(--db-txt-bg-light);
 }
 
 .container_cta .col-5 {
