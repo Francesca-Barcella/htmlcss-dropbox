@@ -162,23 +162,8 @@ i{
 /* #endregion debug */
 
 /* #region header */
-#site_header {
-    background-color: var(--db-light);
-    /*     width: 100vw;
-    height: 10vh;
-    position: fixed;
-    top: 0;
-    left: 0; */
-}
 
-.container_nav {
-    justify-content: space-between;
-    padding: 0.5rem;
-}
 
-nav li {
-    padding: 0 0.5rem;
-}
 
 /* #endregion header */
 
