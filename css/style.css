@@ -28,14 +28,21 @@ h2 {
     font-size: 2rem;
 }
 
+h3 {
+    margin-bottom: 0.8rem;
+}
+
 .btn {
     background-color: var(--db-btn);
     color: var(--db-light);
     border: none;
+    padding: 0.5rem;
 }
 
-.btn.light {
+.btn_light {
     background-color: var(--db-light);
+    padding: 0.5rem;
+    border: none;
 }
 
 /* #endregion common */
@@ -107,6 +114,10 @@ h2 {
     width: calc(100% / 12 * 6);
 }
 
+.col-7 {
+    width: calc(100% / 12 * 7);
+}
+
 .col-8 {
     width: calc(100% / 12 * 8);
 }
@@ -122,14 +133,6 @@ h2 {
     border: 1px dashed green;
 }
 
-/* .debug .pricing,
-.debug .service,
-.debug .cta,
-.debug .punti_salienti {
-    border: 1px solid green;
-    margin: 1rem 0;
-}
- */
 /* #endregion debug */
 
 /* #region header */
@@ -247,10 +250,6 @@ h1 {
     font-size: 0.8rem;
 }
 
-.card .pricing h3 {
-    margin-bottom: 0.8rem;
-}
-
 .card .pricing div {
     color: var(--db-dark-lite);
     font-size: 0.8rem;
@@ -271,7 +270,6 @@ h1 {
 
 .card .btn {
     width: 100%;
-    padding: 0.5rem;
     margin-bottom: 1rem;
 }
 
@@ -287,9 +285,54 @@ h1 {
     margin: 1rem 0;
 }
 
-.card .punti_salienti i{
+.card .punti_salienti i {
     color: var(--db-btn);
 }
 
-
 /* #endregion main-piani business */
+
+/* #region main-enterprise */
+.enterprise {
+    border: 1px solid var(--db-dark-lite);
+    margin-top: 3rem;
+}
+
+.enterprise_container {
+    padding: 1rem 1rem;
+}
+
+.enterprise_btn {
+    text-align: right;
+}
+
+.enterprise_btn .btn {
+    width: 80%;
+}
+
+.enterprise h5 {
+    margin-bottom: 2rem;
+}
+
+/* #endregion main-enterprise */
+
+/* #region main-partner */
+.container_partner {
+    margin-top: 3rem;
+}
+
+.partner_description {
+    padding: 2rem;
+}
+
+.container_partner .btn_light{
+    border: 1px solid var(--db-dark);
+}
+
+.container_partner p{
+    margin-bottom: 2rem;
+}
+/* #endregion main-partner */
+
+/* #region main-operation */
+
+/* #endregion main-operation */
