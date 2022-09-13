@@ -171,17 +171,18 @@ header .nav {
 
 .nav ul {
     line-height: 31px;
+    padding: 0 1rem;
 }
 
-
-
-
+.nav li{
+    margin: 0 1rem;
+}
 /* #endregion header */
 
 /* #region main-jumbotron */
-main {
+/* main {
     margin-top: 10vh;
-}
+} */
 
 h1 {
     padding-top: 1.5rem;
@@ -189,7 +190,7 @@ h1 {
 
 .jumbotron {
     background-color: var(--db-bg-lite);
-    height: ;
+    height: 550px;
 }
 
 .container_jumbotron {
