@@ -392,9 +392,13 @@ h1 {
     padding: 3rem 0;
 }
 
-.container_cta .col-4{
+.container_cta .col-5{
     text-align: right;
     padding-top: 0.5rem;
+}
+
+.container_cta button{
+    width: 80%;
 }
 
 /* #endregion main-call to action */
