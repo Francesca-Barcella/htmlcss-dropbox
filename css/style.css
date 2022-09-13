@@ -137,7 +137,7 @@ h3 {
     border: 1px dashed green;
 }
 
-.debug .col-4{
+.debug .operation .col-4{
     border: 1px dashed blue;
 }
 
@@ -355,7 +355,8 @@ h1 {
     gap: 1rem;
     margin: 1rem 0;
 }
-
-
-
 /* #endregion main-operation */
+
+/* #region main-clients */
+
+/* #endregion main-clients */
