@@ -105,12 +105,6 @@ i {
     flex-wrap: wrap;
 }
 
-.clerafix::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
 .float_left {
     float: left;
     padding-right: 0.2rem;
@@ -162,14 +156,6 @@ i {
 
 .debug .client_logos .col-6 {
     height: 150px;
-}
-
-.rompino {
-    text-align: justify;
-}
-
-.rompino2{
-    display: inline;inset-block: ;
 }
 
 /* #endregion debug */
@@ -271,7 +257,7 @@ h1 {
 }
 
 .piani_business i {
-    margin-right: 0.25rem;
+    margin-right: 0.5rem;
 }
 
 .description_card {
