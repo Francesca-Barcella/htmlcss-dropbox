@@ -449,22 +449,22 @@ h1 {
 /* #endregion main-clients */
 
 /* #region main-call to action */
-.container_cta {
+.cta {
     background-color: var(--db-bg-lite);
     padding: 3rem 0;
 }
 
-.container_cta h2 {
+.cta h2 {
     color: var(--db-txt-bg-light);
 }
-
-.container_cta .col-5 {
+.cta .col-5{
     text-align: right;
-    padding-top: 0.5rem;
 }
 
-.container_cta button {
+.cta a{
+    display: inline-block;
     width: 80%;
+    margin-top: 0.5rem;
 }
 
 /* #endregion main-call to action */
