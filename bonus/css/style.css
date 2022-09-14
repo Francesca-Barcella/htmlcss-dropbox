@@ -62,7 +62,7 @@ a {
     transition: background-color 1s;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #178efd;
 }
 
@@ -75,7 +75,7 @@ a {
     transition: color;
 }
 
-.btn_light:hover{
+.btn_light:hover {
     color: var(--db-dark-lite);
 }
 
@@ -163,24 +163,25 @@ a {
 /* #endregion utility */
 
 /* #region debug */
-.debug .ask{
+.debug .ask {
     border: 1px solid var(--db-dark-lite);
 }
 
-.debug .question{
+.debug .question {
     background-color: lightgreen;
 }
 
-.debug .answer{
+.debug .answer {
     background-color: lightyellow;
 }
+
 /* #endregion debug */
 
 /* #region header */
 
 header {
     background-color: var(--db-light);
-    
+
 }
 
 header .nav {
@@ -231,7 +232,7 @@ h1 {
     transition: all 1s;
 }
 
-.jumbotron i:hover{
+.jumbotron i:hover {
     color: var(--db-btn);
 }
 
@@ -508,7 +509,7 @@ h1 {
     padding-bottom: 2rem;
 }
 
-.ask{
+.ask {
     padding: 1rem 0;
 }
 
@@ -524,12 +525,31 @@ h1 {
     padding-right: 1rem;
 }
 
-.answer{
+.answer {
     padding-top: 1rem;
+    display: none;
 }
+
+.ask:hover .answer {
+    display: block;
+}
+
+
 
 /* .answer{
     display: none;
+} */
+
+
+/* .over {
+    display: none;
+}
+
+.card:hover .over {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
 } */
 
 
