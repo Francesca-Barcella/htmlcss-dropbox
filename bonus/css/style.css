@@ -59,17 +59,24 @@ a {
     border: none;
     padding: 0.5rem;
     text-decoration: none;
+    transition: background-color 1s;
 }
 
 .btn:hover{
-    background-color: #0082FF;
+    background-color: #178efd;
 }
 
 .btn_light {
     background-color: var(--db-light);
+    color: var(--db-dark);
     padding: 0.5rem;
     border: none;
     text-decoration: none;
+    transition: color;
+}
+
+.btn_light:hover{
+    color: var(--db-dark-lite);
 }
 
 
