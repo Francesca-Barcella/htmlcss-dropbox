@@ -80,6 +80,7 @@ i {
     --db-bg-hearst: #B4D0E7;
     --db-bg-lonely: #0D2481;
     --db-bg-clear-ch: #FFD830;
+    --db-bg-designit-text: #F5F5F5;   
 }
 
 .w_70 {
@@ -149,14 +150,8 @@ i {
     border: 1px dashed green;
 }
 
-.debug .clients .col-4,
-.debug .clients>div {
-    border: 1px dashed red;
-}
 
-.debug .client_logos .col-6 {
-    height: 150px;
-}
+
 
 /* #endregion debug */
 
@@ -426,8 +421,27 @@ h1 {
     align-items: center;
 }
 
-.clients img{
+.clients .col-6 img{
     width: 50%;
+    filter: invert();
+}
+
+.designit{
+    padding: 2rem;
+    background-color: var(--db-bg-designit-text);
+}
+
+.designit img{
+    width: 30%;
+}
+
+.designit hr{
+    width: 15%;
+    margin: 2rem 0;
+}
+
+.designit p{
+    margin: 2rem 0;
 }
 
 /* #endregion main-clients */
