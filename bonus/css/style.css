@@ -1,0 +1,535 @@
+/* #region common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--db-dark);
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    margin: auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 0.8rem;
+}
+
+h4 {
+    font-size: 15px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.2rem;
+}
+
+i {
+    font-size: 0.8rem;
+}
+
+a {
+    text-align: center;
+}
+
+.btn {
+    background-color: var(--db-btn);
+    color: var(--db-light);
+    border: none;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+.btn_light {
+    background-color: var(--db-light);
+    padding: 0.5rem;
+    border: none;
+    text-decoration: none;
+}
+
+
+/* #endregion common */
+
+/* #region utility */
+:root {
+    --db-dark: #000000;
+    --db-light: #FFFFFF;
+    --db-dark-lite: grey;
+    --db-btn: #0061FF;
+    --db-bg-lite: #B4D0E7;
+    --db-txt-bg-light: #63082B;
+    --db-bg-designit: #A2D39B;
+    --db-bg-asu: #61082B;
+    --db-bg-uf: #0093CE;
+    --db-bg-toops: #FF1C1C;
+    --db-bg-wbr: #D5001F;
+    --db-bg-hearst: #B4D0E7;
+    --db-bg-lonely: #0D2481;
+    --db-bg-clear-ch: #FFD830;
+    --db-bg-designit-text: #F5F5F5;
+}
+
+.w_70 {
+    width: 70%;
+    margin: auto;
+}
+
+.w_60 {
+    width: 60%;
+    margin: auto;
+}
+
+.w_fluid {
+    width: 100%;
+    margin: auto;
+}
+
+.d_flex {
+    display: flex;
+}
+
+.d_wrap {
+    flex-wrap: wrap;
+}
+
+.float_left {
+    float: left;
+    padding-right: 0.2rem;
+}
+
+.col-2 {
+    width: calc(100% / 12 * 2);
+}
+
+.col-3 {
+    width: calc(100% / 12 * 3);
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
+
+.col-5 {
+    width: calc(100% / 12 * 5);
+}
+
+.col-6 {
+    width: calc(100% / 12 * 6);
+}
+
+.col-7 {
+    width: calc(100% / 12 * 7);
+}
+
+.col-8 {
+    width: calc(100% / 12 * 8);
+}
+
+.col-9 {
+    width: calc(100% / 12 * 9);
+}
+
+/* #endregion utility */
+
+/* #region debug */
+
+/* #endregion debug */
+
+/* #region header */
+header .nav {
+    height: 15vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.8rem;
+}
+
+.nav ul {
+    line-height: 31px;
+    padding: 0 1rem;
+}
+
+.nav li {
+    margin: 0 1rem;
+}
+
+/* #endregion header */
+
+/* #region main-jumbotron */
+/* main {
+    margin-top: 10vh;
+} */
+
+h1 {
+    padding-top: 1.5rem;
+}
+
+.jumbotron {
+    background-color: var(--db-bg-lite);
+    height: 550px;
+}
+
+.container_jumbotron {
+    padding: 2rem 0;
+}
+
+.caption_jumbotron p {
+    margin-bottom: 1.5rem;
+}
+
+.jumbotron .btn {
+    padding: 0.5rem 0.5rem;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+
+.jumbotron i {
+    font-size: 2rem;
+}
+
+/* #endregion main-jumbotron */
+
+/* #region main-piani business */
+.piani_business {
+    margin-top: 5rem;
+}
+
+.piani_business h2,
+.check_box {
+    margin-bottom: 2rem;
+}
+
+.container_check_box {
+    gap: 1rem;
+}
+
+.mensile {
+    margin-right: 1rem;
+}
+
+.mensile i {
+    color: var(--db-btn);
+}
+
+.annuale i {
+    color: var(--db-dark-lite);
+}
+
+.piani_card {
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.card {
+    width: calc(100% / 12 * 4 - 2rem);
+    border: 1px solid var(--db-dark-lite);
+}
+
+.title_card {
+    border-bottom: 1px solid var(--db-dark-lite);
+    text-align: center;
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+}
+
+.piani_business i {
+    margin-right: 0.5rem;
+}
+
+.description_card {
+    justify-content: center;
+    text-align: left;
+    padding: 1rem 1rem;
+}
+
+.piani_business .service,
+.piani_business .cta,
+.piani_business .punti_salienti {
+    font-size: 0.8rem;
+}
+
+.pricing div {
+    color: var(--db-dark-lite);
+    font-size: 0.8rem;
+    margin-top: 0.1rem;
+}
+
+.service {
+    margin: 3rem 0;
+}
+
+.service div {
+    margin: 0.3rem 0;
+}
+
+.cta {
+    padding: 0.5rem 0;
+}
+
+.cta > a{
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.piani_business hr {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    width: 25%;
+    color: var(--db-dark-lite);
+}
+
+.punti_salienti h4 {
+    margin: 1rem 0;
+}
+
+.punti_salienti div {
+    margin: 0.3rem 0;
+}
+
+.punti_salienti i {
+    color: var(--db-btn);
+}
+
+/* #endregion main-piani business */
+
+/* #region main-enterprise */
+.enterprise {
+    border: 1px solid var(--db-dark-lite);
+    margin-top: 3rem;
+}
+
+.enterprise_container {
+    padding: 1rem 1rem;
+}
+
+.enterprise h5 {
+    margin-bottom: 2rem;
+}
+
+.enterprise_btn{
+    text-align: right;
+}
+
+.enterprise a{
+    display: inline-block;
+    width: 80%;
+}
+/* #endregion main-enterprise */
+
+/* #region main-partner */
+.partner {
+    margin-top: 3rem;
+}
+
+.partner_description {
+    padding: 2rem;
+}
+
+.partner .btn_light {
+    border: 1px solid var(--db-dark);
+}
+
+.partner p {
+    margin-bottom: 2rem;
+}
+
+/* #endregion main-partner */
+
+/* #region main-operation */
+.operation {
+    margin: 5rem 0;
+}
+
+.operation h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.operation .row {
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+/* #endregion main-operation */
+
+/* #region main-clients */
+.clients>div {
+    padding-top: 3rem;
+}
+
+.clients h2 {
+    margin-bottom: 2rem;
+}
+
+.client_logos {
+    margin-top: 2rem;
+}
+
+#designit {
+    background-color: var(--db-bg-designit);
+}
+
+#asu {
+    background-color: var(--db-bg-asu);
+}
+
+#unyflorida {
+    background-color: var(--db-bg-uf);
+}
+
+#toops {
+    background-color: var(--db-bg-toops);
+}
+
+#wbr {
+    background-color: var(--db-bg-wbr);
+}
+
+#hearst {
+    background-color: var(--db-bg-hearst);
+}
+
+#lonely {
+    background-color: var(--db-bg-lonely);
+}
+
+#clear-ch {
+    background-color: var(--db-bg-clear-ch);
+}
+
+.clients .col-6 {
+    justify-content: center;
+    align-items: center;
+}
+
+.clients .col-6 img {
+    width: 50%;
+    filter: invert();
+}
+
+.designit {
+    padding: 2rem;
+    background-color: var(--db-bg-designit-text);
+}
+
+.designit img {
+    width: 30%;
+}
+
+.designit hr {
+    width: 15%;
+    margin: 2rem 0;
+}
+
+.designit p {
+    margin: 2rem 0;
+}
+
+/* #endregion main-clients */
+
+/* #region main-call to action */
+.cta {
+    background-color: var(--db-bg-lite);
+    padding: 3rem 0;
+}
+
+.cta h2 {
+    color: var(--db-txt-bg-light);
+}
+.cta .col-5{
+    text-align: right;
+}
+
+.cta a{
+    display: inline-block;
+    width: 80%;
+    margin-top: 0.5rem;
+}
+
+/* #endregion main-call to action */
+
+/* #region main-FAQ */
+.faq {
+    padding: 3rem 0;
+}
+
+.faq h2 {
+    padding-bottom: 2rem;
+}
+
+.question {
+    padding: 1rem 0;
+    border-top: 1px solid var(--db-dark-lite);
+    justify-content: space-between;
+}
+
+.question i {
+    padding-right: 1rem;
+}
+
+.faq .question:last-child {
+    border-bottom: 1px solid var(--db-dark-lite);
+}
+
+
+/* #endregion main-FAQ */
+
+/* #region footer */
+footer {
+    background-color: var(--db-dark);
+    color: var(--db-light);
+}
+
+footer .container {
+    color: var(--db-light);
+    justify-content: space-between;
+    flex-basis: calc(100% / 5);
+    padding: 2rem 0;
+}
+
+footer a {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+footer li {
+    padding: 0.25rem 0;
+    font-size: 12x;
+}
+
+footer hr {
+    width: 15%;
+}
+
+footer .language {
+    padding: 1rem 0;
+    align-items: center;
+}
+
+.language div {
+    margin: 0 0.5rem;
+}
+
+/* #endregion footer */
