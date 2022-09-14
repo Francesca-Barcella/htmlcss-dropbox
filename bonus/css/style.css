@@ -61,6 +61,10 @@ a {
     text-decoration: none;
 }
 
+.btn:hover{
+    background-color: #0082FF;
+}
+
 .btn_light {
     background-color: var(--db-light);
     padding: 0.5rem;
