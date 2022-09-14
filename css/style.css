@@ -49,18 +49,25 @@ i {
     font-size: 0.8rem;
 }
 
+a {
+    text-align: center;
+}
+
 .btn {
     background-color: var(--db-btn);
     color: var(--db-light);
     border: none;
     padding: 0.5rem;
+    text-decoration: none;
 }
 
 .btn_light {
     background-color: var(--db-light);
     padding: 0.5rem;
     border: none;
+    text-decoration: none;
 }
+
 
 /* #endregion common */
 
@@ -279,9 +286,10 @@ h1 {
     padding: 0.5rem 0;
 }
 
-.piani_business .btn {
+.cta > a{
+    display: block;
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .piani_business hr {
@@ -315,18 +323,18 @@ h1 {
     padding: 1rem 1rem;
 }
 
-.enterprise_btn {
-    text-align: right;
-}
-
-.enterprise_btn .btn {
-    width: 80%;
-}
-
 .enterprise h5 {
     margin-bottom: 2rem;
 }
 
+.enterprise_btn{
+    text-align: right;
+}
+
+.enterprise a{
+    display: inline-block;
+    width: 80%;
+}
 /* #endregion main-enterprise */
 
 /* #region main-partner */
@@ -466,7 +474,7 @@ h1 {
     padding: 3rem 0;
 }
 
-.faq h2{
+.faq h2 {
     padding-bottom: 2rem;
 }
 
@@ -476,11 +484,11 @@ h1 {
     justify-content: space-between;
 }
 
-.question i{
+.question i {
     padding-right: 1rem;
 }
 
-.faq .question:last-child{
+.faq .question:last-child {
     border-bottom: 1px solid var(--db-dark-lite);
 }
 
