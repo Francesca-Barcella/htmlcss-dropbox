@@ -163,17 +163,6 @@ a {
 /* #endregion utility */
 
 /* #region debug */
-.debug .ask {
-    border: 1px solid var(--db-dark-lite);
-}
-
-.debug .question {
-    background-color: lightgreen;
-}
-
-.debug .answer {
-    background-color: lightyellow;
-}
 
 /* #endregion debug */
 
@@ -181,7 +170,9 @@ a {
 
 header {
     background-color: var(--db-light);
-
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 5px black;
 }
 
 header .nav {
@@ -534,30 +525,17 @@ h1 {
     display: block;
 }
 
-
-
-/* .answer{
-    display: none;
-} */
-
-
-/* .over {
+.up{
     display: none;
 }
 
-.card:hover .over {
+.ask:hover .down{
+    display: none;
+}
+
+.ask:hover .up{
     display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-} */
-
-
-
-
-
-
-
+}
 
 
 /* #endregion main-FAQ */
