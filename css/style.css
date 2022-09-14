@@ -426,11 +426,9 @@ h1 {
     align-items: center;
 }
 
-
-
-
-
-
+.clients img{
+    width: 50%;
+}
 
 /* #endregion main-clients */
 
@@ -503,11 +501,3 @@ footer .language {
 }
 
 /* #endregion footer */
-
-
-/* da sistemare di posizione */
-svg{
-    max-width: 50%;
-    max-height: 50%;
-}
-
