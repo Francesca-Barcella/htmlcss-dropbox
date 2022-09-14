@@ -79,7 +79,6 @@ a {
     color: var(--db-dark-lite);
 }
 
-
 /* #endregion common */
 
 /* #region utility */
@@ -221,13 +220,19 @@ h1 {
 
 .jumbotron i {
     font-size: 2rem;
+    color: var(--db-dark);
+    transition: all 1s;
+}
+
+.jumbotron i:hover{
+    color: var(--db-btn);
 }
 
 /* #endregion main-jumbotron */
 
 /* #region main-piani business */
 .piani_business {
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
 
 .piani_business h2,
