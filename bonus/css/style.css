@@ -163,10 +163,17 @@ a {
 /* #endregion utility */
 
 /* #region debug */
-.debug header {
-    
+.debug .ask{
+    border: 1px solid var(--db-dark-lite);
 }
 
+.debug .question{
+    background-color: lightgreen;
+}
+
+.debug .answer{
+    background-color: lightyellow;
+}
 /* #endregion debug */
 
 /* #region header */
@@ -501,19 +508,36 @@ h1 {
     padding-bottom: 2rem;
 }
 
-.question {
+.ask{
     padding: 1rem 0;
-    border-top: 1px solid var(--db-dark-lite);
+}
+
+.question {
     justify-content: space-between;
+}
+
+.faq .question:last-child {
+    border-bottom: 1px solid var(--db-dark-lite);
 }
 
 .question i {
     padding-right: 1rem;
 }
 
-.faq .question:last-child {
-    border-bottom: 1px solid var(--db-dark-lite);
+.answer{
+    padding-top: 1rem;
 }
+
+/* .answer{
+    display: none;
+} */
+
+
+
+
+
+
+
 
 
 /* #endregion main-FAQ */
