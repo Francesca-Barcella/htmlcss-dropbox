@@ -80,7 +80,7 @@ i {
     --db-bg-hearst: #B4D0E7;
     --db-bg-lonely: #0D2481;
     --db-bg-clear-ch: #FFD830;
-    --db-bg-designit-text: #F5F5F5;   
+    --db-bg-designit-text: #F5F5F5;
 }
 
 .w_70 {
@@ -146,12 +146,6 @@ i {
 /* #endregion utility */
 
 /* #region debug */
-.debug {
-    border: 1px dashed green;
-}
-
-
-
 
 /* #endregion debug */
 
@@ -214,7 +208,7 @@ h1 {
 }
 
 .piani_business h2,
-.container_check_box {
+.check_box {
     margin-bottom: 2rem;
 }
 
@@ -336,7 +330,7 @@ h1 {
 /* #endregion main-enterprise */
 
 /* #region main-partner */
-.container_partner {
+.partner {
     margin-top: 3rem;
 }
 
@@ -344,11 +338,11 @@ h1 {
     padding: 2rem;
 }
 
-.container_partner .btn_light {
+.partner .btn_light {
     border: 1px solid var(--db-dark);
 }
 
-.container_partner p {
+.partner p {
     margin-bottom: 2rem;
 }
 
@@ -384,63 +378,63 @@ h1 {
     margin-top: 2rem;
 }
 
-#designit{
+#designit {
     background-color: var(--db-bg-designit);
 }
 
-#asu{
+#asu {
     background-color: var(--db-bg-asu);
 }
 
-#unyflorida{
+#unyflorida {
     background-color: var(--db-bg-uf);
 }
 
-#toops{
+#toops {
     background-color: var(--db-bg-toops);
 }
 
-#wbr{
+#wbr {
     background-color: var(--db-bg-wbr);
 }
 
-#hearst{
+#hearst {
     background-color: var(--db-bg-hearst);
 }
 
-#lonely{
+#lonely {
     background-color: var(--db-bg-lonely);
 }
 
-#clear-ch{
+#clear-ch {
     background-color: var(--db-bg-clear-ch);
 }
 
-.clients .col-6{
+.clients .col-6 {
     justify-content: center;
     align-items: center;
 }
 
-.clients .col-6 img{
+.clients .col-6 img {
     width: 50%;
     filter: invert();
 }
 
-.designit{
+.designit {
     padding: 2rem;
     background-color: var(--db-bg-designit-text);
 }
 
-.designit img{
+.designit img {
     width: 30%;
 }
 
-.designit hr{
+.designit hr {
     width: 15%;
     margin: 2rem 0;
 }
 
-.designit p{
+.designit p {
     margin: 2rem 0;
 }
 
@@ -469,11 +463,27 @@ h1 {
 
 /* #region main-FAQ */
 .faq {
-    background-color: coral;
-    height: 150px;
-    text-align: center;
-    line-height: 150px;
+    padding: 3rem 0;
 }
+
+.faq h2{
+    padding-bottom: 2rem;
+}
+
+.question {
+    padding: 1rem 0;
+    border-top: 1px solid var(--db-dark-lite);
+    justify-content: space-between;
+}
+
+.question i{
+    padding-right: 1rem;
+}
+
+.faq .question:last-child{
+    border-bottom: 1px solid var(--db-dark-lite);
+}
+
 
 /* #endregion main-FAQ */
 
