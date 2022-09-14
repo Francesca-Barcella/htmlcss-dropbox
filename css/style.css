@@ -158,7 +158,6 @@ i {
     height: 150px;
 }
 
-
 /* #endregion debug */
 
 /* #region header */
@@ -398,7 +397,7 @@ h1 {
     background-color: var(--db-bg-asu);
 }
 
-#uniflorida{
+#unyflorida{
     background-color: var(--db-bg-uf);
 }
 
@@ -421,6 +420,14 @@ h1 {
 #clear-ch{
     background-color: var(--db-bg-clear-ch);
 }
+
+.clients .col-6{
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 
 
 
