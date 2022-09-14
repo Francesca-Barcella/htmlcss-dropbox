@@ -176,10 +176,6 @@ header .nav {
 /* #endregion header */
 
 /* #region main-jumbotron */
-/* main {
-    margin-top: 10vh;
-} */
-
 h1 {
     padding-top: 1.5rem;
 }
@@ -449,19 +445,19 @@ h1 {
 /* #endregion main-clients */
 
 /* #region main-call to action */
-.cta {
+.call_to_action {
     background-color: var(--db-bg-lite);
     padding: 3rem 0;
 }
 
-.cta h2 {
+.call_to_action h2 {
     color: var(--db-txt-bg-light);
 }
-.cta .col-5{
+.call_to_action .col-5{
     text-align: right;
 }
 
-.cta a{
+.call_to_action a{
     display: inline-block;
     width: 80%;
     margin-top: 0.5rem;
