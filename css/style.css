@@ -79,7 +79,7 @@ i {
     --db-bg-wbr: #D5001F;
     --db-bg-hearst: #B4D0E7;
     --db-bg-lonely: #0D2481;
-    --db-bg-clear-channel: #FFD830;
+    --db-bg-clear-ch: #FFD830;
 }
 
 .w_70 {
@@ -389,6 +389,41 @@ h1 {
 .client_logos {
     margin-top: 2rem;
 }
+
+#designit{
+    background-color: var(--db-bg-designit);
+}
+
+#asu{
+    background-color: var(--db-bg-asu);
+}
+
+#uniflorida{
+    background-color: var(--db-bg-uf);
+}
+
+#toops{
+    background-color: var(--db-bg-toops);
+}
+
+#wbr{
+    background-color: var(--db-bg-wbr);
+}
+
+#hearst{
+    background-color: var(--db-bg-hearst);
+}
+
+#lonely{
+    background-color: var(--db-bg-lonely);
+}
+
+#clear-ch{
+    background-color: var(--db-bg-clear-ch);
+}
+
+
+
 
 /* #endregion main-clients */
 
